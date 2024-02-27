@@ -17,15 +17,7 @@ let songIndex = 0;
 
 
 // Songs info
-const songs = [
-  {
-    title: 'Green Chair',
-    artist: 'Diego Nava',
-    coverPath: 'assets/images/cover1.jpg',
-    discPath: 'assets/music/music1.mp3',
-    duration: '1:33',
-  }
-];
+
 
 
 

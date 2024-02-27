@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 :root {
   --color-green: #1dd195;
@@ -13,22 +14,27 @@ html {
 
 body {
   font-family: 'Poppins', 'Montserrat', sans-serif;
-  background: linear-gradient(45deg, rgba(32, 200, 63, 1)0%, rgba(0, 212, 255, 1)100%);  display: flex;
+  background: linear-gradient(45deg, rgb(77, 1, 128)0%, rgb(225, 0, 255)100%);display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
   -webkit-tap-highlight-color: transparent;
 }
 
 .container {
   width: 30rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .heading {
   color: #000;
   text-align: center;
-  
+  align-items: center;
+  justify-content: center;
   font-size: 4rem;
+  
   
 }
 .a{
@@ -38,6 +44,8 @@ body {
 .b{
   font-weight: 300;
   font-size: 20px;
+  display: inline-flex;
+
 }
 
 .music-container {
@@ -127,18 +135,18 @@ body {
 }
 
 .download a{
-  border: #1dd195 solid 1px;
+  border: rgb(225, 0, 255) solid 1px;
   border-radius: 30px;
-  background-color: aqua;
+  background: linear-gradient(45deg, rgb(77, 1, 128)0%, rgb(225, 0, 255)100%);
   width: 12rem;
   text-decoration: none;
   font-size: 9pt;
-  color: #000;
+  color: violet;
   /* padding: 1rem; */
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: #d8d8d8 0px 0px 5px 3px;
+  box-shadow: #a0a0a0 0px 0px 5px 1px;
 }
 .download a b{
   
@@ -146,9 +154,10 @@ body {
 }
 .download-btn{
   border: none;
+  color: violet;
   padding: 5px;
   border-radius: 50%;
-  background-color: aqua;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #control-box {
