@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/stylet0000.css">
+    <title>Music Player pro</title>
+</head>
+
+<body>
+    <div class="music-player">
+        <div class="pic">
+            <div class="picture">
+                <img src="assets/images/t0000.jpg" alt="cover-image" id="cover" />
+            </div>
+        </div>
+        <div class="control">
+            <div class="line-music">
+                <audio id="disc"></audio>
+                <div id="music-info">
+                    <h1>happy Birthday to me</h1>
+                    <div id="progress-container">
+                        <div id="progress"></div>
+                    </div>
+                    <div id="timer-bar">
+                        <span id="timer">0:00</span>
+                        <span id="duration"></span>
+                    </div>
+                    <div id="control-box">
+                        <i id="play" class="special-btn fas fa-play"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="download">
+            <a href="assets/music/t0000.mp3" download><button class="download-btn"><span
+                        class="material-symbols-outlined">
+                        download
+                    </span></button><b>download</b></a>
+        </div>
+    </div>
+    <script>const songs = [
+            {
+                coverPath: 'assets/images/t0000.jpg',
+                discPath: 'assets/music/t0000.mp3',
+                duration: '1:39',
+            }
+        ];</script>
+    <script src="assets/scripts/scriptpro.js"></script>
+
+</body>
+
+</html>
