@@ -16,13 +16,13 @@ body {
     box-shadow: 0 0 10px 5px rgb(51, 6, 6);
     border-radius: 20px;
     width: 80%;
-    height: 60vh;
+    height: 65vh;
 }
 
 .pic {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 #cover {
     border-radius: inherit;
