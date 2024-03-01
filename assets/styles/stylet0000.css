@@ -15,8 +15,8 @@ body {
     border: 2px solid darkred;
     box-shadow: 0 0 10px 5px rgb(51, 6, 6);
     border-radius: 20px;
-    width: 65%;
-    height: 85vh;
+    width: 80%;
+    height: 60vh;
 }
 
 .pic {
