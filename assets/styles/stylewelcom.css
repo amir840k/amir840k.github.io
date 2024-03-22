@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(0, 255, 191)0%, rgb(225, 0, 255)100%);
+}
+
+#logo{
+    height: 320px;
+    width: 320px;
+    background-image: url(../images/logo.png);
+    filter: opacity(0.5) drop-shadow(0 0 0 darkmagenta);
+    background-repeat: round;
+    display: block;
+}
+p{
+    font-family:"Vazirmatn", sans-serif;
+}
+#p1{
+    font-family:"Vazirmatn", sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+}
+#p2{
+    font-family:"Vazirmatn", sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+}
+#btn{
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
